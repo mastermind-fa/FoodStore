@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.search-container {
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    margin-right: 70px;
+    margin-left: 70px;
+    
+    overflow: hidden;
+}
+
+.search-box {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    flex: 1;
+}
+
+#search-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    
+    font-size: 16px;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+.cart-container{
+    margin-right: 0;
+    margin-left: auto;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.menu-container{
+    
+    
+    
+    border: 2px solid black;
+    border-radius: 25px;
+}
+#menu-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Centers items horizontally */
+    gap: 20px; /* Space between products */
+    padding: 20px; /* Padding around the container */
+}
+
+.meal {
+    background-color: #f9f9f9; /* Background color for product cards */
+    border: 1px solid #ddd; /* Border for product cards */
+    border-radius: 5px; /* Rounded corners */
+    width: 200px; /* Set a fixed width */
+    text-align: center; /* Center text */
+    padding: 10px; /* Padding inside product cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    margin-top: 5px;
+}
+
+.meal img , .cart-info img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners for images */
+}
+#details-btn, #add-to-cart-btn {
+    background-color: #28a745; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.details-btn:hover , #add-to-cart-btn:hover {
+    background-color: #218838; /* Darker button color on hover */
+}
+.cart-info {
+    
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+}
